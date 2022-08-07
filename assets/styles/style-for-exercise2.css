@@ -1,0 +1,85 @@
+.container {
+    display: grid;
+    width: 100%;
+    height: 600px;
+    grid-template-areas:
+      "header header"
+      "main sidebar"
+      "footer footer";
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 10% 1fr 20%;
+    border: 2px solid;
+  }
+  .header {
+    grid-area: header;
+    text-align: center;
+    background-color: chartreuse;
+  }
+  .main {
+    display: grid;
+    grid-template-areas:
+      "main main"
+      "also1 also2"
+      "also3 also3";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 20% 20%;
+    gap: 3rem;
+    padding: 2%;
+    grid-area: main;
+    
+    background-color: coral;
+  }
+  span{position: relative;
+  left: 90%;}
+  .also1 {
+    grid-area: also1;
+    border: 2px solid;
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+  }
+  .also2 {
+    grid-area: also2;
+    border: 2px solid;
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+  }
+  .also3 {
+    grid-area: also3;
+    border: 2px solid;
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+  }
+  .sidebar {
+    grid-area: sidebar;
+    text-align: center;
+    background-color: crimson;
+  }
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+    padding: 1.5%;
+    grid-area: footer;
+    background-color: deeppink;
+  }
+  .footer1 {
+    border: 2px solid;
+    text-align: center;
+    background-color: lightpink;
+  }
+  .footer2 {
+    border: 2px solid;
+    text-align: center;
+    background-color: lightpink;
+  }
+  .footer3 {
+    border: 2px solid;
+    text-align: center;
+    background-color: lightpink;
+  }
+  .footer4 {
+    border: 2px solid;
+    text-align: center;
+    background-color: lightpink;
+  }
+  
