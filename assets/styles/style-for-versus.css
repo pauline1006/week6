@@ -21,7 +21,7 @@
   justify-items: center;
   grid-area: header;
   /*Задаю фоновое изображение fone1*/
-  background-image: url(assets/images/fone1.png);
+  background-image: url(assets/images/fone1);
   /*Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях*/
   background-position: center center;
   /*Фон не повторяется*/
